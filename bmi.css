@@ -1,0 +1,152 @@
+body {
+  background-color: #333;
+}
+.header {
+  background-color: #333;
+  height: 60px;
+  color: white;
+  /* padding: 20px 100px; */
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  color: rgb(240, 95, 42);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 600px;
+}
+.c1 {
+  background-color: #333;
+}
+.cal-container {
+  margin-top: 80px;
+  margin-left: 70px;
+  width: 400px;
+  height: 500px;
+  background-color: rgb(69, 75, 75);
+}
+.hinput {
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 30px;
+  width: 100px;
+}
+.flexheight {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.flexweight {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.winput {
+  margin-top: 20px;
+  margin-left: 0px;
+  height: 30px;
+  width: 100px;
+}
+.htext {
+  margin-top: 30px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: white;
+}
+.wtext {
+  margin-top: 30px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: white;
+}
+.bmibutton {
+  margin-top: 30px;
+  margin-left: 150px;
+  height: 40px;
+  width: 120px;
+  background-color: rgb(240, 95, 42);
+  border: none;
+}
+.bmibutton:hover {
+  background-color: black;
+  color: rgb(240, 95, 42);
+  transition: 1s;
+}
+.image {
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 110px;
+}
+.screen {
+  width: 100px;
+  height: 30px;
+  margin-top: 30px;
+  margin-left: 70px;
+  background-color: white;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+.flexresult {
+  display: flex;
+  flex-direction: row;
+}
+.result {
+  margin-top: 35px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: white;
+}
+.c2 {
+  background-color: #333;
+}
+.inf-container {
+  margin-top: 80px;
+  margin-left: 70px;
+  width: 400px;
+  height: 500px;
+  background-color: rgb(69, 75, 75);
+}
+.h1 {
+  margin-left: 20px;
+  color: orangered;
+  font-weight: bold;
+}
+.h1inf {
+  color: white;
+  margin-left: 20px;
+}
+.linkcontainer {
+  margin-top: 10px;
+}
+.link1 {
+  margin-left: 20px;
+  font-size: 14px;
+  color: antiquewhite;
+}
+.footer {
+  background-color: #333;
+  color: white;
+  /* padding: 20px 100px; */
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
